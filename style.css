@@ -1,0 +1,187 @@
+*{
+    padding: 0%;
+   
+ margin: 0%;
+}
+.main{
+    background-color: plum;
+   
+}
+.main1:hover{
+    background-color: purple;
+    transition: 1s;
+    
+
+}
+.bannr{
+    background-image: url(./imag.jpg);
+    background-size:cover;
+    height: 80vh;
+} 
+.bannerimg{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow:6px 6px 5px white ;   
+}
+.bannerimg:hover{
+    border: 2px solid purple;
+    box-shadow:6px 6px 5px purple; 
+   
+}
+.bnr{
+    border-radius:30px;
+    color: purple;
+    background-color: plum;
+    padding: 10px;
+}
+.bnr:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+
+}
+.sec3{
+    background-color: rgba(221, 160, 221, 0.6);
+    color: purple;
+    padding: 20px;
+}
+.sec33{
+    background-color: rgba(221, 160, 221, 0.6)
+
+}
+.about{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 6px 10px  rgba(136, 90, 180, 0.7) ;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color: palevioletred ;
+ }
+.hu{
+    color: purple;
+}
+/* * BASIC INFORMATIO */ 
+ .some{
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .basic1{
+    display: flex;
+    
+ }
+ .basic2{
+    font-size: 15px;
+    font-weight: 700;
+ }
+ .basic3{
+margin-left: 20px;
+ }
+ .education-item {
+    border-left: 4px solid black;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: plum;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(128, 0, 128, 0.2);
+  }
+  .education-item h4 {
+    font-weight: bold;
+    color: purple;
+  }
+  .education-item p {
+    color:black;
+    margin: 5px 0;
+  }
+  
+ .skills{
+    background-color: white;
+    box-shadow: 3px 6px 10px  rgba(136, 90, 180, 0.7) ;
+    margin-top: 30px;
+    padding: 40px;
+ 
+  }
+  .sk3{
+  background-color: rgba(136, 90, 180, 0.7) ;
+  border: 2px solid purple;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  }
+  .sk2{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  @media only sreen and (max-width:357px){
+    
+  }
+  cont{
+    background-color: rgba(127, 102, 151, 0.3) ;
+    margin-top: 50px;
+ }
+ .fo{
+    font-weight: 800;
+    font-size: 20px;
+ }
+ .cont1{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    width: 500px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 3px 6px 10px  rgba(50, 30, 68, 0.7) ;
+   
+ }
+ .bh{
+    background-color: rgba(136, 90, 180, 0.7) ;
+ }
+ .las h1{
+    margin-top: 40px;
+    text-align: center;
+ 
+ }
+ /* .CONTACT */
+ 
+ 
+  .contact-section {
+    padding: 50px 0;
+  }
+  .contact-card {
+    transition: transform 0.3s ease;
+    background-color: plum;
+    
+    border: 3px solid #00e3af;
+    
+ 
+  }
+  .contact-card:hover {
+    transform: translateY(-5px);
+   
+  }
+  .btn-email {
+    background-color: black;
+    color: #fff;
+  }
+  .btn-email:hover {
+    background-color: #00ffc3;
+  }
+  i{
+    font-size: 50px;
+  }
+ .bh{
+    background-color: rgba(136, 90, 180, 0.7) ;
+ }
+ .las h1{
+    margin-top: 40px;
+    text-align: center;
+ 
+ }
+  
+  
+
+  
